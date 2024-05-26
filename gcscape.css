@@ -1,0 +1,222 @@
+* {
+    scroll-behavior: smooth;
+ }
+ body {
+    background-image: url('pic/gc1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    font-family: Arial, sans-serif;
+    margin-left: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+ }
+ 
+ .header {
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    border-bottom: hidden;
+    background-color: rgba(255, 255, 255, 0.8); 
+    margin: auto;
+ }
+ 
+ .logo-container {
+    display: flex;
+    align-items: center;
+ }
+ 
+ .logo {
+    width: 60px;
+    height: 60px;
+    background-image: url('pic/gclogo.png');
+    background-size: cover;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-size: 12px;
+    margin-right: 10px;
+ }
+ 
+ .logo2 {
+    width: 60px; 
+    height: 60px; 
+    background-image: url('pic/gcccslogo.png'); 
+    background-size: cover;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-size: 12px;
+    margin-left: auto; 
+ }
+ 
+ .nav {
+    display: flex;
+    list-style: none;
+ }
+ 
+ .nav li {
+    margin: 0 20px;
+ }
+ 
+ .nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+ }
+ 
+ .sign-in {
+    background-color: #ddd;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+ }
+ .sign-in:hover {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    color: white;
+ }
+ 
+ .hero {
+    width: 100%;
+    height: 68vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+ }
+ 
+ .hero-image {
+    width: 70%;
+    height: 70%; 
+    background-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-collapse: collapse;
+    border: hidden;
+    border-radius: 100px;
+    background-image: url('pic/gcgroup.jpg');
+    background-size: cover;
+    background-position: center;
+ }
+ 
+ .cta {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    position: relative; 
+    z-index: 1; 
+ }
+ 
+ .cta button {
+    background-color: #ddd;
+    border-radius: 25px;
+    border: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 2; 
+ }
+ 
+ .cta button:hover {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    color: white;
+ }
+ 
+ h2 {
+    font-size: 70px;
+    font-family: serif;
+    color: transparent;
+    text-align: center;
+    animation: effect 2s linear infinite;
+ }
+ 
+ @keyframes effect {
+    0% {
+    background: linear-gradient(#008000, #00FF00);
+    -webkit-background-clip: text;
+    }
+ 
+    100% {
+    background: linear-gradient(#008000, #ff8000);
+    -webkit-background-clip: text;
+    }
+ }
+ 
+ 
+ .herop{
+ margin-right: 0;
+ padding: 0;
+ height: 78vh;
+ text-align:center;
+ color:#d3750b;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: bold;
+ }
+ 
+ p {
+    text-shadow: 2px 2px 2px #000000;
+    background-color: rgba(255, 255, 255, 0.8); 
+ }
+ h3{
+   text-shadow: 2px 2px 2px #000000;
+ }
+ 
+ .btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+ }
+
+.footer {
+    background-color: #373532;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative; 
+    clear: both; 
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .social-media a {
+    margin: 0 15px;
+}
+
+.contact-info {
+    margin-top: 20px; 
+}
